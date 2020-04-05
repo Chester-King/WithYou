@@ -11,6 +11,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Looper;
+import android.telephony.SmsManager;
 import android.view.View;
 import android.widget.Toast;
 
@@ -140,15 +141,29 @@ public class MainActivity extends AppCompatActivity {
                             String locationStatus=latitude+"---"+longitude;
                             Toast.makeText(getApplicationContext(),locationStatus,Toast.LENGTH_SHORT).show();
 
+                            sendSMS(locationStatus);
 
-                            Intent smsIntent = new Intent(Intent.ACTION_SENDTO,Uri.parse("smsto:1234456;234567;9453998530"));
-                            smsIntent.putExtra("sms_body", locationStatus);
-                            startActivity(smsIntent);
+
                         }
                     }
                 }, Looper.getMainLooper());
 
 
+
+    }
+
+    private void sendSMS(String locationStatus){
+
+        ActivityCompat.requestPermissions(MainActivity.this,new String[]{Manifest.permission.SEND_SMS,Manifest.permission.READ_SMS},PackageManager.PERMISSION_GRANTED);
+
+        String message=locationStatus;
+        SmsManager mySmsManager=SmsManager.getDefault();
+        mySmsManager.sendTextMessage("9453998530",null,message,null,null);
+
+
+//        Intent smsIntent = new Intent(Intent.ACTION_SENDTO,Uri.parse("smsto:1234456;234567;9453998530"));
+//        smsIntent.putExtra("sms_body", locationStatus);
+//        startActivity(smsIntent);
 
     }
 }
