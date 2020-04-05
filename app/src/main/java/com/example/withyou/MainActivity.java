@@ -7,11 +7,15 @@ import androidx.core.content.ContextCompat;
 
 import android.Manifest;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.icu.util.Calendar;
 import android.net.Uri;
+import android.os.BatteryManager;
 import android.os.Bundle;
 import android.os.Looper;
 import android.telephony.SmsManager;
+import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
@@ -32,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final int REQUEST_CODE_LOCATION_PERMISSION=1;
 
-    LottieAnimationView hospital,police,police_call,contact;
+    LottieAnimationView hospital,police,police_call,contact,defence,knife;
 
 
 
@@ -41,10 +45,42 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
+        getBattery_percentage();
         hospital=findViewById(R.id.hospital);
         police=findViewById(R.id.police);
         police_call=findViewById(R.id.police_call);
         contact=findViewById(R.id.contact);
+        defence=findViewById(R.id.defence);
+        knife=findViewById(R.id.knife);
+
+
+        knife.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Calendar cal = Calendar.getInstance();
+                Intent intent = new Intent(Intent.ACTION_EDIT);
+                intent.setType("vnd.android.cursor.item/event");
+                intent.putExtra("beginTime", cal.getTimeInMillis());
+                intent.putExtra("allDay", true);
+                intent.putExtra("rrule", "FREQ=DAILY");
+                intent.putExtra("endTime", cal.getTimeInMillis()+60*60*1000);
+                intent.putExtra("title", "Take Weapon Stash");
+                startActivity(intent);
+            }
+        });
+
+        defence.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                String url = "https://www.youtube.com/watch?v=T7aNSRoDCmg";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+
+            }
+        });
 
         hospital.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -165,5 +201,17 @@ public class MainActivity extends AppCompatActivity {
 //        smsIntent.putExtra("sms_body", locationStatus);
 //        startActivity(smsIntent);
 
+    }
+
+    void getBattery_percentage()
+    {
+        IntentFilter ifilter = new IntentFilter(Intent.ACTION_BATTERY_CHANGED);
+        Intent batteryStatus = getApplicationContext().registerReceiver(null, ifilter);
+        int level = batteryStatus.getIntExtra(BatteryManager.EXTRA_LEVEL, -1);
+        int scale = batteryStatus.getIntExtra(BatteryManager.EXTRA_SCALE, -1);
+        float batteryPct = level / (float)scale;
+        float p = batteryPct * 100;
+
+        Toast.makeText(getApplicationContext(),String.valueOf(p),Toast.LENGTH_SHORT).show();
     }
 }

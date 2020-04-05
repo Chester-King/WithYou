@@ -82,6 +82,37 @@
 
             </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/defence"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    app:lottie_scale="0.5"
+                    android:layout_gravity="center"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="youtube.json"
+                    app:lottie_loop="true" />
+
+                <com.airbnb.lottie.LottieAnimationView
+                    android:id="@+id/knife"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:scaleType="center"
+                    app:lottie_scale="0.2"
+                    android:layout_gravity="center"
+                    app:lottie_autoPlay="true"
+                    app:lottie_fileName="knife.json"
+                    app:lottie_loop="true" />
+
+            </LinearLayout>
         </LinearLayout>
 
     </FrameLayout>

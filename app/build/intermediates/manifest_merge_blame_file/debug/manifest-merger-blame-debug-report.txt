@@ -35,7 +35,7 @@
 19-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:13:22-64
 20
 21    <application
-21-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:17:5-41:19
+21-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:17:5-45:19
 22        android:allowBackup="true"
 22-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:18:9-35
 23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -50,55 +50,54 @@
 28-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:21:9-54
 29        android:supportsRtl="true"
 29-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:22:9-35
-30        android:testOnly="true"
-31        android:theme="@style/AppTheme" >
-31-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:23:9-40
-32        <receiver android:name="com.example.withyou.receiver.BatteryLevelReceiver" >
-32-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:24:9-28:20
-32-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:24:19-64
-33            <intent-filter>
-33-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:25:13-27:29
-34                <action android:name="android.intent.action.BATTERY_LOW" />
-34-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:26:17-76
-34-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:26:25-73
-35            </intent-filter>
-36        </receiver>
-37
-38        <activity android:name="com.example.withyou.LoginActivity" />
-38-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:30:9-60
-38-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:30:19-48
-39        <activity android:name="com.example.withyou.SplashActivity" >
-39-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:31:9-37:20
-39-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:31:19-49
-40            <intent-filter>
-40-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:32:13-36:29
-41                <action android:name="android.intent.action.MAIN" />
-41-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:33:17-69
-41-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:33:25-66
-42
-43                <category android:name="android.intent.category.LAUNCHER" />
-43-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:35:17-77
-43-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:35:27-74
-44            </intent-filter>
-45        </activity>
-46        <activity android:name="com.example.withyou.MainActivity" />
-46-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:38:9-59
-46-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:38:19-47
-47        <activity
-47-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\446c8e633f1c2f9ce709bf2702f31232\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-48            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-48-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\446c8e633f1c2f9ce709bf2702f31232\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-49            android:exported="false"
-49-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\446c8e633f1c2f9ce709bf2702f31232\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-50            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-50-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\446c8e633f1c2f9ce709bf2702f31232\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-51
-52        <meta-data
-52-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\31abab72c580a308e5190fa6c877af2e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-53            android:name="com.google.android.gms.version"
-53-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\31abab72c580a308e5190fa6c877af2e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-54            android:value="@integer/google_play_services_version" />
-54-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\31abab72c580a308e5190fa6c877af2e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-55    </application>
-56
-57</manifest>
+30        android:theme="@style/AppTheme" >
+30-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:23:9-40
+31        <receiver android:name="com.example.withyou.LowBatteryReceiver" >
+31-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:25:9-33:20
+31-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:25:19-53
+32            <intent-filter>
+32-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:27:13-30:29
+33                <action android:name="android.intent.action.BATTERY_LOW" />
+33-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:28:17-83
+33-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:28:25-73
+34            </intent-filter>
+35        </receiver>
+36
+37        <activity android:name="com.example.withyou.LoginActivity" />
+37-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:34:9-60
+37-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:34:19-48
+38        <activity android:name="com.example.withyou.SplashActivity" >
+38-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:35:9-41:20
+38-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:35:19-49
+39            <intent-filter>
+39-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:36:13-40:29
+40                <action android:name="android.intent.action.MAIN" />
+40-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:37:17-69
+40-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:37:25-66
+41
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:39:17-77
+42-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:39:27-74
+43            </intent-filter>
+44        </activity>
+45        <activity android:name="com.example.withyou.MainActivity" />
+45-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:42:9-59
+45-->D:\Work\WithYou\app\src\main\AndroidManifest.xml:42:19-47
+46        <activity
+46-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\446c8e633f1c2f9ce709bf2702f31232\play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+47            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+47-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\446c8e633f1c2f9ce709bf2702f31232\play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+48            android:exported="false"
+48-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\446c8e633f1c2f9ce709bf2702f31232\play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+49            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+49-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\446c8e633f1c2f9ce709bf2702f31232\play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+50
+51        <meta-data
+51-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\31abab72c580a308e5190fa6c877af2e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+52            android:name="com.google.android.gms.version"
+52-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\31abab72c580a308e5190fa6c877af2e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+53            android:value="@integer/google_play_services_version" />
+53-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\HP\.gradle\caches\transforms-2\files-2.1\31abab72c580a308e5190fa6c877af2e\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+54    </application>
+55
+56</manifest>

@@ -1603,6 +1603,7 @@ id dark
 id date_picker_actions
 id decor_content_parent
 id default_activity_button
+id defence
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1648,6 +1649,7 @@ id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id knife
 id labeled
 id largeLabel
 id left
