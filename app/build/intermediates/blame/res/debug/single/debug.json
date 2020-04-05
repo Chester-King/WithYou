@@ -1,11 +1,11 @@
 [
     {
-        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
-        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
-    },
-    {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\d56513dd06f98e3420f7ea50575b7f08\\core-1.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\anim_splash_animation.xml.flat",
@@ -44,28 +44,28 @@
         "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout\\abc_select_dialog_material.xml"
-    },
-    {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_layout.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_select_dialog_material.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_start_icon.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\design_text_input_start_icon.xml"
     },
     {
-        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_text.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\design_layout_tab_text.xml"
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_with_theme_line_height.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\text_view_with_theme_line_height.xml"
     },
     {
-        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_tab_text.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\design_layout_tab_text.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_radio.xml.flat",
@@ -80,12 +80,12 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\anim_fadeout.xml.flat",
-        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\anim\\fadeout.xml"
-    },
-    {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_alert_select_dialog_item.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\mtrl_alert_select_dialog_item.xml"
+    },
+    {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\anim_fadeout.xml.flat",
+        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\anim\\fadeout.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_dialog.xml.flat",
@@ -104,24 +104,24 @@
         "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_toolbar_surface.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\test_toolbar_surface.xml"
-    },
-    {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_end_icon.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\design_text_input_end_icon.xml"
+    },
+    {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_toolbar_surface.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\test_toolbar_surface.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_navigation_item.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
-        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_alert_dialog_actions.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\mtrl_alert_dialog_actions.xml"
-    },
-    {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_content_include.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_alert_dialog_actions.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\mtrl_alert_dialog_actions.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
@@ -196,12 +196,12 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\test_toolbar_custom_background.xml"
     },
     {
-        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout\\abc_screen_simple.xml"
-    },
-    {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout-sw600dp-v13_design_layout_snackbar.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout-sw600dp-v13\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_screen_simple.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_select_dialog_singlechoice_material.xml.flat",
