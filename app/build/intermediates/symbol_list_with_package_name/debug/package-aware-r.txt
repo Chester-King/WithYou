@@ -1471,6 +1471,7 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable in_back
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -1493,6 +1494,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable off_back
+drawable out_back
+drawable power_back
 drawable test_custom_background
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
@@ -1714,6 +1718,7 @@ id percent
 id pin
 id police
 id police_call
+id polnumber
 id progress_circular
 id progress_horizontal
 id radio
@@ -1745,6 +1750,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id set_button
 id settings
 id shortcut
 id showCustom
@@ -1796,6 +1802,7 @@ id textinput_helper_text
 id textinput_placeholder
 id textinput_prefix_text
 id textinput_suffix_text
+id textnumber
 id time
 id title
 id titleDividerNoCustom

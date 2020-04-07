@@ -38,6 +38,10 @@ public class MainActivity extends AppCompatActivity {
 
     LottieAnimationView hospital,police,police_call,contact,defence,knife;
 
+    public static final String SHARED_PREFS="sharedPrefs";
+    public static final String CALL="call";
+    public static final String TEXT="text";
+
 
 
     @Override

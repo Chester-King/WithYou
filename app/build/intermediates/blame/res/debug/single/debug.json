@@ -164,12 +164,20 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_power_back.xml.flat",
+        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\drawable-v24\\power_back.xml"
+    },
+    {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_calendar_month_navigation.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\mtrl_calendar_month_navigation.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_search_dropdown_item_icons_2line.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_out_back.xml.flat",
+        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\drawable-v24\\out_back.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_layout.xml.flat",
@@ -320,6 +328,10 @@
         "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\anim\\fadein.xml"
     },
     {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_off_back.xml.flat",
+        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\drawable-v24\\off_back.xml"
+    },
+    {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_tooltip.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout\\abc_tooltip.xml"
     },
@@ -446,6 +458,10 @@
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_layout_snackbar.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_in_back.xml.flat",
+        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\drawable-v24\\in_back.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_actions.xml.flat",
