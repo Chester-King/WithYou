@@ -1,15 +1,15 @@
 [
     {
-        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\anim_splash_animation.xml.flat",
-        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\anim\\splash_animation.xml"
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\d56513dd06f98e3420f7ea50575b7f08\\core-1.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
     },
     {
-        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\d56513dd06f98e3420f7ea50575b7f08\\core-1.2.0\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\anim_splash_animation.xml.flat",
+        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\anim\\splash_animation.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_sheet_dialog.xml.flat",
@@ -84,12 +84,12 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout-watch-v20\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\anim_fadeout.xml.flat",
-        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\anim\\fadeout.xml"
-    },
-    {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_alert_select_dialog_item.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\mtrl_alert_select_dialog_item.xml"
+    },
+    {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\anim_fadeout.xml.flat",
+        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\anim\\fadeout.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_picker_dialog.xml.flat",
@@ -108,12 +108,12 @@
         "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_toolbar_surface.xml.flat",
-        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\test_toolbar_surface.xml"
-    },
-    {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_end_icon.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\design_text_input_end_icon.xml"
+    },
+    {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_toolbar_surface.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\test_toolbar_surface.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_bottom_navigation_item.xml.flat",
@@ -302,6 +302,10 @@
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_navigation_item_subheader.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_security_black_24dp.xml.flat",
+        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\drawable\\ic_security_black_24dp.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_alert_dialog_button_bar_material.xml.flat",
