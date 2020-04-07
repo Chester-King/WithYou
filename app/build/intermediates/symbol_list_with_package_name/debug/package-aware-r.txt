@@ -1751,6 +1751,8 @@ id search_voice_btn
 id select_dialog_listview
 id selected
 id set_button
+id set_c
+id set_t
 id settings
 id shortcut
 id showCustom

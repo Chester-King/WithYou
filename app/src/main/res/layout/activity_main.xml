@@ -18,11 +18,30 @@
             android:layout_height="match_parent"
             android:orientation="vertical">
 
+            <TextView
+                android:id="@+id/set_c"
+                android:text="Call Number : Loading..."
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                />
+            <TextView
+                android:id="@+id/set_t"
+                android:text="Text Number : Loading..."
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                />
 
-        <LinearLayout
+
+            <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
+            android:layout_weight="8"
             android:orientation="horizontal">
 
             <com.airbnb.lottie.LottieAnimationView
@@ -53,7 +72,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"
+                android:layout_weight="8"
                 android:orientation="horizontal">
 
                 <com.airbnb.lottie.LottieAnimationView
@@ -85,7 +104,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1"
+                android:layout_weight="8"
                 android:orientation="horizontal">
 
                 <com.airbnb.lottie.LottieAnimationView

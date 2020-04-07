@@ -8,6 +8,7 @@ import androidx.core.content.ContextCompat;
 import android.Manifest;
 import android.content.Intent;
 import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.content.pm.PackageManager;
 import android.icu.util.Calendar;
 import android.net.Uri;
@@ -17,6 +18,7 @@ import android.os.Looper;
 import android.telephony.SmsManager;
 import android.util.Log;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.airbnb.lottie.LottieAnimationView;
@@ -37,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private static final int REQUEST_CODE_LOCATION_PERMISSION=1;
 
     LottieAnimationView hospital,police,police_call,contact,defence,knife;
+    TextView set_c,set_t;
 
     public static final String SHARED_PREFS="sharedPrefs";
     public static final String CALL="call";
@@ -48,6 +51,24 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        set_c=findViewById(R.id.set_c);
+        set_t=findViewById(R.id.set_t);
+
+        SharedPreferences sharedPreferences=getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
+
+        if(!sharedPreferences.getString(CALL,"").equals(""))
+            set_c.setText("Call Number : "+ sharedPreferences.getString(CALL,""));
+        else
+            set_c.setText("Call Number : Not Set");
+
+        if(!sharedPreferences.getString(TEXT,"").equals(""))
+            set_t.setText("Text Number : "+ sharedPreferences.getString(TEXT,""));
+        else
+            set_t.setText("Text Number : Not Set");
+
+
+
 
 
         getBattery_percentage();
@@ -104,7 +125,11 @@ public class MainActivity extends AppCompatActivity {
         police_call.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + "7905674248"));
+
+                SharedPreferences sharedPreferences=getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
+                String callNumber=sharedPreferences.getString(CALL,"");
+                String textNumber=sharedPreferences.getString(TEXT,"");
+                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + callNumber));
 
 
                 if (ContextCompat.checkSelfPermission(getApplicationContext(), CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
@@ -179,7 +204,7 @@ public class MainActivity extends AppCompatActivity {
                                     locationResult.getLocations().get(latestLocationIndex).getLongitude();
 
                             String locationStatus=latitude+"---"+longitude;
-                            Toast.makeText(getApplicationContext(),locationStatus,Toast.LENGTH_SHORT).show();
+                            Toast.makeText(getApplicationContext(),"Your Lat---long : "+locationStatus,Toast.LENGTH_SHORT).show();
 
                             sendSMS(locationStatus);
 
@@ -196,9 +221,17 @@ public class MainActivity extends AppCompatActivity {
 
         ActivityCompat.requestPermissions(MainActivity.this,new String[]{Manifest.permission.SEND_SMS,Manifest.permission.READ_SMS},PackageManager.PERMISSION_GRANTED);
 
+        SharedPreferences sharedPreferences=getSharedPreferences(SHARED_PREFS,MODE_PRIVATE);
+        String callNumber=sharedPreferences.getString(CALL,"");
+        String textNumber=sharedPreferences.getString(TEXT,"");
+
         String message=locationStatus;
         SmsManager mySmsManager=SmsManager.getDefault();
-        mySmsManager.sendTextMessage("9453998530",null,message,null,null);
+
+        if(!textNumber.equals(""))
+            mySmsManager.sendTextMessage(textNumber,null,message,null,null);
+        else
+            Toast.makeText(getBaseContext(),"Please Set a number for text message",Toast.LENGTH_SHORT).show();
 
 
 //        Intent smsIntent = new Intent(Intent.ACTION_SENDTO,Uri.parse("smsto:1234456;234567;9453998530"));
