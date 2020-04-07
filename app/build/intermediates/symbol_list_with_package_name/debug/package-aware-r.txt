@@ -1595,6 +1595,7 @@ id contact
 id container
 id content
 id contentPanel
+id controls
 id coordinator
 id custom
 id customPanel
@@ -1744,6 +1745,7 @@ id search_src_text
 id search_voice_btn
 id select_dialog_listview
 id selected
+id settings
 id shortcut
 id showCustom
 id showHome
@@ -1880,8 +1882,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_access
 layout activity_login
 layout activity_main
+layout activity_settings
 layout activity_splash
 layout custom_dialog
 layout design_bottom_navigation_item

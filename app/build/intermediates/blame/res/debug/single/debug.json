@@ -52,6 +52,10 @@
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\a136933342b0efb06224178e8f312868\\appcompat-1.1.0\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_settings.xml.flat",
+        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_start_icon.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\design_text_input_start_icon.xml"
     },
@@ -230,6 +234,10 @@
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_test_toolbar_elevation.xml.flat",
         "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-2\\files-2.1\\9a38266901a6b8e2a807299a330f6537\\material-1.2.0-alpha05\\res\\layout\\test_toolbar_elevation.xml"
+    },
+    {
+        "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_access.xml.flat",
+        "source": "D:\\Work\\WithYou\\app\\src\\main\\res\\layout\\activity_access.xml"
     },
     {
         "merged": "D:\\Work\\WithYou\\app\\build\\intermediates\\res\\merged\\debug\\layout_text_view_with_line_height_from_layout.xml.flat",
